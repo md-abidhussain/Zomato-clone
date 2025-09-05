@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Zomato Clone</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/Zomato-Logo.png" height="40" alt="Zomato">
+            </a>
+
+            <!-- Hamburger button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Restaurants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cuisines</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Collections</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Order Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Discover the best food & drinks</h1>
+            <div class="search-bar">
+                <i class="fas fa-location-dot"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container">
+            <h2>Quick Filters</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80" alt="Pizza">
+                    <h3>Pizza</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80" alt="Burger">
+                    <h3>Burger</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80" alt="Sushi">
+                    <h3>Sushi</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=300&q=80" alt="Biryani">
+                    <h3>Biryani</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <div class="container">
+            <h2>Popular Restaurants</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&q=80" alt="Restaurant">
+                        <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>The Food Corner</h3>
+                        <p class="cuisine">Italian, Mexican</p>
+                        <p class="price">$20 for one • 30-40 min</p>
+                        <p class="offers"><i class="fas fa-tag"></i> 50% off up to $10</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&q=80" alt="Restaurant">
+                        <span class="rating"><i class="fas fa-star"></i> 4.2</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Spice Garden</h3>
+                        <p class="cuisine">Indian, Chinese</p>
+                        <p class="price">$15 for one • 20-30 min</p>
+                        <p class="offers"><i class="fas fa-tag"></i> Free delivery</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=500&q=80" alt="Restaurant">
+                        <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Burger Palace</h3>
+                        <p class="cuisine">American, Fast Food</p>
+                        <p class="price">$25 for one • 40-50 min</p>
+                        <p class="offers"><i class="fas fa-tag"></i> 20% off on orders above $30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Team</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <a href="#">Help & Support</a>
+                    <a href="#">Partner with us</a>
+                    <a href="#">Ride with us</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Social Links</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 FoodHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
