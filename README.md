@@ -17,8 +17,9 @@ I created this project during the **Growth Cycle (GC) 1 Buildathon conducted by 
 - Font Awesome  
 
 
-## 🌐 Live Demo
-👉 [View Deployed Project](zclone.ccbp.tech)  
+## 🌐 Deployed Links
+* **GitHub Pages:** (https://md-abidhussain.github.io/Zomato-clone/)
+* **Nxtwave:** (https://zclone.ccbp.tech/)
 
 ## 📌 Project Details
 - Type: Static Website  
